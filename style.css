@@ -1,0 +1,142 @@
+/*
+nav
+*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding-top: 32px;
+    padding-bottom: 31px;
+    padding-left: 69px;
+    padding-right: 71px;
+    top: 0px;
+    width: auto;
+    background-color: #fff;
+}
+
+.nav .menu{
+    display: flex;
+}
+.nav .menu a{
+    text-decoration: none;
+    color: #161616;
+}
+.nav .menu li.selected::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border: 2px solid rgb(173, 222, 135);
+    width: 50%;
+    line-height: 10px;
+    
+}
+.nav .menu a:hover{
+    color: rgb(173, 222, 135);
+}
+
+.nav .menu li{
+    
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    position: relative;
+}
+.nav .icons img{
+
+    margin: 18.5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/*
+cabecalho
+*/
+.cabecalho{
+    font-size: 401px;
+    background-color: rgb(173, 222, 135);
+    background-image: url('./img/SALE.png');
+    text-align: center;
+    padding: 83px 0 82px 0;
+    background-size: cover;
+}
+
+.conteudo{
+    display: flex;
+    padding: 48px 70px ;
+    justify-content: center;
+    
+}
+.conteudo .produto{
+    margin: 0px 97px;
+}
+
+.conteudo .produto .titulo_produto{
+    font-size: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #161616;
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+
+.conteudo .produto .valor_produto{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5ca720;
+}
+
+.conteudo .produto .cifrao{
+    color: #161616;
+    font-size: 20px;
+
+}
+
+/* footer */
+
+.firt_box{
+    border-top: 1px solid #a5a1a1;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.firt_box .links{
+    
+    margin: 40px 71px 50px;
+}
+
+.firt_box .links li{
+    margin: 10px 0;
+}
+
+.second_box{
+    border-top: 1px solid #a5a1a1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.second_box .social_media {
+    margin-top: 43px;
+    margin-left: 71px;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    
+}
+.second_box .social_media img{
+    margin-right: 20px;
+}
+.second_box .payments{
+    margin-top: 55px;
+    margin-right: 70px;
+    margin-bottom: 58px;
+    display: flex;
+    align-items: center;
+}
+.second_box .payments .icon{
+    margin-left: 24px;
+}
