@@ -180,6 +180,7 @@ nav
     color: #F8F8F8;
     border: none;
     margin-left: -4px;
+    cursor: pointer;
 }
 
 .firt_box .newsletter .email {
