@@ -66,18 +66,49 @@ cabecalho
     background-size: cover;
 }
 
-.conteudo {
+/*
+cabecalho
+*/
+
+/*
+nav
+*/
+
+.conteudo .corpo_produto {
     display: flex;
     padding: 48px 70px;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
-.conteudo .produto {
-    margin: 0px 97px;
+.conteudo .corpo_produto .produto {
+    margin: 0px 97px;    
 }
 
-.conteudo .produto .titulo_produto {
+.conteudo .formulario .formulario_produto {
+    display: flex;
+    padding: 34px 0 32px 69px;
+    align-items: center;
+    border-bottom: 1px solid #a5a1a1;
+    
+}
+.conteudo .formulario .formulario_produto h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.conteudo .formulario .formulario_produto .filtragem {
+    display: flex;
+    font-size: 18px;
+    margin-left: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-style: none;
+    
+}
+
+.conteudo .corpo_produto .produto .titulo_produto {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     color: #161616;
@@ -85,17 +116,24 @@ cabecalho
     margin-bottom: 11px;
 }
 
-.conteudo .produto .valor_produto {
+.conteudo .corpo_produto .produto .valor_produto {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #5ca720;
+    margin-bottom: 65px;
 }
 
-.conteudo .produto .cifrao {
+.conteudo .corpo_produto .produto .cifrao {
     color: #161616;
     font-size: 20px;
 
 }
+
+/*
+nav
+*/
+
+
 
 /* footer */
 
@@ -119,16 +157,17 @@ cabecalho
 
 .firt_box .newsletter {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     justify-content: center;
     margin-top: 18px;
     margin-right: 70px;
-    
+
 }
-.firt_box .newsletter h1{
+
+.firt_box .newsletter h1 {
     margin-bottom: 18px;
     font-size: 20px;
-    
+
 }
 
 .firt_box .newsletter .buttonsubimit {
