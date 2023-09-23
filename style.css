@@ -225,3 +225,76 @@ nav
 .second_box .payments .icon {
     margin-left: 24px;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .nav{
+        flex-direction: row;
+
+    }
+    .cabecalho{
+        padding: 48px;
+
+    }
+
+    .cabecalho img{
+        max-width: 100%;
+    }
+
+    /* conteudo*/
+
+    .conteudo{
+        padding: 28px 33px;
+        gap: 97px;
+    }
+
+    .conteudo .produto{
+        margin: 0;
+        width: 125px;    
+        
+
+
+    }
+    .conteudo .produto img{
+        max-width: 100%;
+        
+    }
+
+    .conteudo .produto .titulo_produto{
+        font-size:  12px;
+    }
+    .conteudo .produto .valor_produto{
+        font-size: 14px ;
+
+    }
+    .conteudo .produto .cifrao{
+        font-size: 12px ;
+
+    }
+    /* end conteudo*/
+
+    /* rodape */
+
+    .firt_box .links{
+        margin-top: 33px;
+        margin-left: 33px;
+        margin-bottom: 54px;
+    }
+    .rodape .firt_box{
+        flex-direction: column;
+    }
+    
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter .form{
+        flex-direction: column;
+    }
+
+    .newsletter .form .email {
+        width: 200px;
+    }
+  }
+
+
