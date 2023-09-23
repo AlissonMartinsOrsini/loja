@@ -229,7 +229,8 @@ nav
 
 @media only screen and (max-width: 500px) {
     .nav{
-        flex-direction: row;
+       
+        flex-direction: column;
 
     }
     .cabecalho{
