@@ -83,7 +83,7 @@ nav
 }
 
 .conteudo .corpo_produto .produto {
-    margin: 0px 97px;    
+    margin: 0px 97px;
 }
 
 .conteudo .formulario .formulario_produto {
@@ -91,9 +91,10 @@ nav
     padding: 34px 0 32px 69px;
     align-items: center;
     border-bottom: 1px solid #a5a1a1;
-    
+
 }
-.conteudo .formulario .formulario_produto h1{
+
+.conteudo .formulario .formulario_produto h1 {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -105,7 +106,7 @@ nav
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     border-style: none;
-    
+
 }
 
 .conteudo .corpo_produto .produto .titulo_produto {
@@ -228,74 +229,82 @@ nav
 
 
 @media only screen and (max-width: 500px) {
-    .nav{
-       
+    .nav {
+
         flex-direction: column;
 
     }
-    .cabecalho{
+
+    .cabecalho {
         padding: 48px;
 
     }
 
-    .cabecalho img{
+    .cabecalho img {
         max-width: 100%;
     }
 
     /* conteudo*/
 
-    .conteudo{
+    .conteudo {
         padding: 28px 33px;
         gap: 97px;
     }
 
-    .conteudo .produto{
+    .conteudo .produto {
         margin: 0;
-        width: 125px;    
-        
+        width: 125px;
+
 
 
     }
-    .conteudo .produto img{
+
+    .conteudo .produto img {
         max-width: 100%;
-        
-    }
-
-    .conteudo .produto .titulo_produto{
-        font-size:  12px;
-    }
-    .conteudo .produto .valor_produto{
-        font-size: 14px ;
 
     }
-    .conteudo .produto .cifrao{
-        font-size: 12px ;
+
+    .conteudo .produto .titulo_produto {
+        font-size: 12px;
+    }
+
+    .conteudo .produto .valor_produto {
+        font-size: 14px;
+
+    }
+
+    .conteudo .produto .cifrao {
+        font-size: 12px;
 
     }
     /* end conteudo*/
 
     /* rodape */
 
-    .firt_box .links{
+    .firt_box .links {
         margin-top: 33px;
         margin-left: 33px;
         margin-bottom: 54px;
     }
-    .rodape .firt_box{
+    .rodape {
+        display: inline-block;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .rodape .firt_box {
         flex-direction: column;
     }
-    
-    .newsletter{
+
+    .newsletter {
         display: flex;
         flex-direction: column;
     }
-    .newsletter .form{
+
+    .newsletter .form {
         flex-direction: column;
     }
 
     .newsletter .form .email {
         width: 200px;
     }
-  }
-
-
+}
