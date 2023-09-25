@@ -231,8 +231,14 @@ nav
 @media only screen and (max-width: 500px) {
     .nav {
 
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 35px 32px;
+    }
 
+    .nav .menu{
+        display: none;
+        
     }
 
     .cabecalho {
@@ -298,13 +304,49 @@ nav
     .newsletter {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0 33px;
     }
 
     .newsletter .form {
         flex-direction: column;
+        margin: 0;
     }
 
     .newsletter .form .email {
-        width: 200px;
+        max-width: 100%;
+        height: 43px;
+        margin-bottom: 17px;
+        font-weight: normal;
+        font-size: 16px;
+
     }
+    .newsletter .form .buttonsubimit{
+        width: 100%;
+        margin-bottom: 42px;
+        font-size: 16px;
+
+    }
+
+    /*  rodape second box*/
+
+    .second_box{
+        padding: 27px 30px;
+
+    }
+    .second_box .social_media{
+        margin: 0;
+    }
+    .second_box .payments{
+        margin: 0;
+    
+    }
+
+
+
+
+
+
 }
