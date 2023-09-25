@@ -99,6 +99,7 @@ nav
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
 .conteudo .formulario .formulario_produto .filtragem {
     display: flex;
     font-size: 18px;
@@ -228,7 +229,7 @@ nav
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 830px) {
     .nav {
 
         flex-direction: row;
@@ -236,9 +237,9 @@ nav
         padding: 35px 32px;
     }
 
-    .nav .menu{
-        display: none;
-        
+    .nav .menu {
+        max-width: 100%;
+
     }
 
     .cabecalho {
@@ -257,32 +258,34 @@ nav
         gap: 97px;
     }
 
-    .conteudo .produto {
-        margin: 0;
-        width: 125px;
-
-
-
+    .conteudo .corpo_produto {
+        padding: 48px 0;
     }
 
-    .conteudo .produto img {
+    .conteudo .corpo_produto .produto {
+        margin: 0px 14px;
+        width: 125px;
+    }
+
+    .conteudo .corpo_produto .produto img {
         max-width: 100%;
 
     }
 
-    .conteudo .produto .titulo_produto {
+    .conteudo .corpo_produto .produto .titulo_produto {
         font-size: 12px;
     }
 
-    .conteudo .produto .valor_produto {
+    .conteudo .corpo_produto .produto .valor_produto {
         font-size: 14px;
 
     }
 
-    .conteudo .produto .cifrao {
+    .conteudo .corpo_produto .produto .cifrao {
         font-size: 12px;
 
     }
+
     /* end conteudo*/
 
     /* rodape */
@@ -292,11 +295,13 @@ nav
         margin-left: 33px;
         margin-bottom: 54px;
     }
+
     .rodape {
         display: inline-block;
         justify-content: center;
         max-width: 100%;
     }
+
     .rodape .firt_box {
         flex-direction: column;
     }
@@ -323,7 +328,8 @@ nav
         font-size: 16px;
 
     }
-    .newsletter .form .buttonsubimit{
+
+    .newsletter .form .buttonsubimit {
         width: 100%;
         margin-bottom: 42px;
         font-size: 16px;
@@ -332,21 +338,141 @@ nav
 
     /*  rodape second box*/
 
-    .second_box{
+    .second_box {
         padding: 27px 30px;
 
     }
-    .second_box .social_media{
+
+    .second_box .social_media {
         margin: 0;
     }
-    .second_box .payments{
+
+    .second_box .payments {
         margin: 0;
-    
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav {
+
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 35px 32px;
     }
 
+    .nav .menu {
+        max-width: 100%;
+        
+    }
 
+    .cabecalho {
+        padding: 48px;
 
+    }
 
+    .cabecalho img {
+        max-width: 100%;
+    }
 
+    /* conteudo*/
 
+    .conteudo {
+        padding: 28px 33px;
+        gap: 97px;
+    }
+
+    .conteudo .corpo_produto {
+        padding: 48px 0;
+    }
+
+    .conteudo .corpo_produto .produto {
+        margin: 0px 14px;
+        width: 125px;
+    }
+
+    .conteudo .corpo_produto .produto img {
+        max-width: 100%;
+
+    }
+
+    .conteudo .corpo_produto .produto .titulo_produto {
+        font-size: 12px;
+    }
+
+    .conteudo .corpo_produto .produto .valor_produto {
+        font-size: 14px;
+
+    }
+
+    .conteudo .corpo_produto .produto .cifrao {
+        font-size: 12px;
+
+    }
+
+    /* end conteudo*/
+
+    /* rodape */
+
+    .firt_box .links {
+        margin-top: 33px;
+        margin-left: 33px;
+        margin-bottom: 54px;
+    }
+
+    .rodape {
+        display: inline-block;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .rodape .firt_box {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0 33px;
+    }
+
+    .newsletter .form {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .newsletter .form .email {
+        max-width: 100%;
+        height: 43px;
+        margin-bottom: 17px;
+        font-weight: normal;
+        font-size: 16px;
+
+    }
+
+    .newsletter .form .buttonsubimit {
+        width: 100%;
+        margin-bottom: 42px;
+        font-size: 16px;
+
+    }
+
+    /*  rodape second box*/
+
+    .second_box {
+        padding: 27px 30px;
+
+    }
+
+    .second_box .social_media {
+        margin: 0;
+    }
+
+    .second_box .payments {
+        margin: 0;
+
+    }
 }
