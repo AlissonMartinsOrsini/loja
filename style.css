@@ -235,11 +235,14 @@ nav
         flex-direction: row;
         justify-content: space-between;
         padding: 35px 32px;
+        flex-wrap: wrap;
     }
 
     .nav .menu {
         max-width: 100%;
-
+        order: 1;
+        display: flex;
+        flex
     }
 
     .cabecalho {
